@@ -31,8 +31,8 @@ Step 6: Install dependencies
 
 Step 7: Install PyFixer as a package
 - Type:
-      pip install '-e.' Remember to add the period at the end of the command.
-- The `-e` flag installs it in "editable" mode. This means you can update PyFixer files and still run it without reinstalling.
+      'pip install -e.' Remember to add the period at the end of the command.
+- The `-e` installs it in "editable" mode. This means you can update PyFixer files and still run it without reinstalling.
 
 Step 8: Install Ollama AI and pull the model
 - PyFixer uses Ollama for AI analysis.
@@ -91,7 +91,7 @@ Notes:
 - Static scans run entirely locally and are fast.
 - AI analysis may take a few seconds depending on the file size.
 - If PyFixer is not recognized:
-      - Ensure you installed it with `pip install -e .`
+      - Ensure you installed it with `pip install -e.`
       - Check that Python is added to your system PATH.
 - If Python is not recognized:
       - Mac: Python 3 usually comes preinstalled; otherwise, install from python.org
